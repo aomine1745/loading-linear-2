@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	
+	<h1>Preloader</h1>
+	<div class="container">
+		<img src="https://aomine1745.github.io/Img/bg1.jpg" alt="">
+		<img src="https://aomine1745.github.io/Img/bg2.jpg" alt="">
+		<img src="https://aomine1745.github.io/Img/bg3.jpg" alt="">
+		<img src="https://aomine1745.github.io/Img/bg5.jpg" alt="">
+		<img src="https://aomine1745.github.io/Img/bg4.jpg" alt="">
+		<img src="https://aomine1745.github.io/Img/bg6.jpg" alt="">
+	</div>
+
+	<script src="js/scripts.js"></script>
+	<script>
+		NProgress.start();
+		window.addEventListener('load', function(){
+			NProgress.done();
+		})
+	</script>
+</body>
+</html>
